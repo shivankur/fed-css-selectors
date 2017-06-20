@@ -36,7 +36,23 @@ header {
   text-align: right;
 }
 
+ol {
+  background-color: yellow;
+  padding: 5px;
+}
 
-Select the element with ID of item1 and change the font-size to 30px
+li:nth-child(2n+1) {
+  background-color: green;
+    }
 
-Select the element with ID of item2 and change the text-align to right
+[title~="Bitmaker"]:hover {
+    text-decoration: none;
+  }
+
+  [href~="#"]:hover {
+      background-color: yellow;
+    }
+
+  [href~="#"]:active {
+      background-color: red;
+      }
