@@ -1,2 +1,17 @@
-/* Move your styles here when you're ready to clean up your HTML file */
-<link href="index.css" rel="stylesheet" type="css"/>
+
+*{
+  font-size:25px;
+}
+h1{
+  font-family:sans-serif;
+}
+h2{
+  font-family:times;
+}
+header {
+  border-bottom: 20px solid tomato
+}
+
+.class-list {
+  list-style-type: square;
+}
