@@ -15,3 +15,17 @@ header {
 .class-list {
   list-style-type: square;
 }
+.item {
+  border: 10px solid purple
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: black;
+  color: white;
+}
+
+Give elements with class 'odd' a background-color of 'black' and a color of 'white'
